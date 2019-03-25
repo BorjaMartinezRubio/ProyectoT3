@@ -1,4 +1,4 @@
 
-public class trabajadores {
+public interface trabajadores {
 
 }
