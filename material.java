@@ -1,4 +1,4 @@
 
-public class material {
+public class Material {
 
 }

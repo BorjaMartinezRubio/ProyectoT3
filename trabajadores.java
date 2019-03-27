@@ -1,4 +1,4 @@
 
-public interface trabajadores {
+public interface Trabajadores {
 
 }

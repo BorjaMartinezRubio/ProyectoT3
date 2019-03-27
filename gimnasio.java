@@ -1,4 +1,4 @@
 
-public class gimnasio {
+public class Gimnasio {
 
 }

@@ -1,4 +1,4 @@
 
-public class jefe {
+public class Jefe extends Personas implements Trabajadores {
 
 }

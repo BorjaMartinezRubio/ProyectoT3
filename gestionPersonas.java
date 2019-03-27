@@ -1,4 +1,4 @@
 
-public class gestionPersonas {
+public class GestionPersonas {
 
 }

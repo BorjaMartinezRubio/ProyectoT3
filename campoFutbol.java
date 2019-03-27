@@ -1,4 +1,4 @@
 
-public class campoFutbol {
+public class CampoFutbol {
 
 }

@@ -1,4 +1,4 @@
 
-public class piscina {
+public class Piscina {
 
 }

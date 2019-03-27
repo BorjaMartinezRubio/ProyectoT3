@@ -1,4 +1,4 @@
 
-public class empleados {
+public class Empleados extends Personas implements Trabajadores {
 
 }

@@ -1,4 +1,4 @@
 
-public class gestionInstalaciones {
+public class GestionInstalaciones {
 
 }

@@ -1,4 +1,4 @@
 
-public class gestionMaterial {
+public class GestionMaterial {
 
 }
