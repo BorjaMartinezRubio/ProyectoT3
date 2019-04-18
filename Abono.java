@@ -1,24 +1,13 @@
 
 public class Abono {
 	
-	protected int numCarnet;
-	protected String fechaLimite, dniPropietario;
+	protected String fechaLimite;
 	protected char tipoCarnet;
 	
-	protected Abono(int numCarnet, String fechaLimite, String dniPropietario, char tipoCarnet) {
+	protected Abono( String fechaLimite, char tipoCarnet) {
 		super();
-		this.numCarnet = numCarnet;
 		this.fechaLimite = fechaLimite;
-		this.dniPropietario = dniPropietario;
 		this.tipoCarnet = tipoCarnet;
-	}
-
-	protected int getNumCarnet() {
-		return numCarnet;
-	}
-
-	protected void setNumCarnet(int numCarnet) {
-		this.numCarnet = numCarnet;
 	}
 
 	protected String getFechaLimite() {
@@ -29,13 +18,6 @@ public class Abono {
 		this.fechaLimite = fechaLimite;
 	}
 
-	protected String getDniPropietario() {
-		return dniPropietario;
-	}
-
-	protected void setDniPropietario(String dniPropietario) {
-		this.dniPropietario = dniPropietario;
-	}
 
 	protected char getTipoCarnet() {
 		return tipoCarnet;
@@ -48,9 +30,7 @@ public class Abono {
 	public String toString() {
 		String mensaje;
 		mensaje = "Datos del carnet: ";
-		mensaje += "\n\tDNI del propietario: " + dniPropietario;
 		mensaje += "\n\tTipo de carnet: " + tipoCarnet;
-		mensaje += "\n\tNumero de carnet: " + numCarnet;
 		mensaje += "\n\tFecha limite de uso: " + fechaLimite;
 		return mensaje;
 	}
