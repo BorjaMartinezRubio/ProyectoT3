@@ -5,7 +5,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.time.*;
 
-public class GestionPersonas {
+public class gestionPersonas {
 	
 	Scanner sc = new Scanner(System.in);
 	EntradaSalida es = new EntradaSalida();

@@ -4,10 +4,9 @@ public class Abono {
 	
 	protected LocalDate caducidad;
 	protected char tipoCarnet;
-	GestionPersonas gesp = new GestionPersonas();
+	gestionPersonas gesp = new gestionPersonas();
 
 	protected Abono(LocalDate caducidad, char tipoCarnet) {
-		super();
 		this.caducidad = caducidad;
 		this.tipoCarnet = tipoCarnet;
 	}
