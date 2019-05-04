@@ -1,5 +1,5 @@
 
-public interface Trabajadores {
+public interface trabajadores {
 	
 
 }
